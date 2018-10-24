@@ -58,7 +58,7 @@ if(fileExt && keyName) {
     // concut a "." to the given extention
     fileExt ="." + fileExt;
 
-    var filesList = getFilesRecursively("C:\\MyFolder");
+    var filesList = getFilesRecursively(__dirname);
 }
 // If the user not pass any arguments      
 else {
